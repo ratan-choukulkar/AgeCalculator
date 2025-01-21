@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(185, 175, 175);
+    }
+    
+    form{
+        width: 300px;
+        margin:20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        background-color: rgb(110, 107, 107);
+
+    }
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    input[type="date"]
+    {
+        margin-bottom: 9px;
+        width: 100%;
+        height:30px;
+        background-color: ;
+        color: #050404;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    label{
+        color: #ebeaea;
+    }
+     .container{
+        display: flex;               /* Flexbox for centering */
+  justify-content: center;     /* Horizontally center the button */
+  align-items: center;         /* Vertically center the button */
+
+     }
+    button{
+        left: 50%;
+        margin-left: 60px;
+        text-align: center;          /* Center the text inside the button */
+  padding: 10px 20px;          /* Add padding for better appearance */
+  font-size: 16px;
+  background-color: rgb(56, 240, 56);   /* Button background color */
+  color: white;                /* Button text color */
+  border: none;                /* Remove borders */
+  border-radius: 5px;          /* Rounded corners */
+  cursor: pointer;  
+    }
+    button:hover{
+        background-color: rgb(95, 172, 95);
+    
+    }
+    #result{
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
